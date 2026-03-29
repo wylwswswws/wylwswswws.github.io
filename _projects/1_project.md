@@ -1,81 +1,35 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: "AI-Driven Sales Forecasting for Spencer's Gifts"
+description: Led the Wharton AI & Analytics Accelerator Team to build predictive models and data pipelines that improved forecast accuracy by 25%.
+img: assets/img/1.jpg
 importance: 1
-category: work
-related_publications: true
+category: Industry
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+As a **Data Scientist** at the **Wharton AI & Analytics Initiative**, I led the Accelerator Team to develop an AI-driven tool that predicted sales trends for **Spencer's Gifts**, a major specialty retailer. The goal was to improve inventory management and increase sales efficiency through data-driven forecasting.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Challenge
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Spencer's Gifts needed a more accurate sales forecasting system to optimize inventory allocation across their retail network. Existing methods lacked the ability to incorporate diverse signals from marketing campaigns, social media trends, and historical sales data.
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Approach
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Predictive Modeling:** Designed and implemented ensemble forecasting models combining **Prophet** and **XGBoost** in Python, achieving **91.2% forecast accuracy** on held-out test sets.
+- **Data Engineering:** Managed large-scale data pipelines on **AWS** and **Databricks**, utilizing **SQL** and **PySpark** to ingest and transform diverse datasets — including marketing campaigns, social media analytics, and point-of-sale records.
+- **Business Intelligence:** Built interactive **Power BI** dashboards delivering actionable insights to **500+ stakeholders**, enabling proactive decisions in inventory management and sales strategy.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Results
 
-{% raw %}
+| Metric | Impact |
+|--------|--------|
+| Forecast accuracy improvement | **+25%** |
+| Sales efficiency increase | **+18%** |
+| Stakeholders served | **500+** |
+| Model accuracy (held-out) | **91.2%** |
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Tech Stack
 
-{% endraw %}
+`Python` · `XGBoost` · `Prophet` · `PySpark` · `SQL` · `AWS` · `Databricks` · `Power BI`

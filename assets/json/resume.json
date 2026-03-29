@@ -4,44 +4,61 @@
     "label": "Data Scientist",
     "image": "",
     "email": "yulunwu02@163.com",
-    "phone": "(267) 800-3686",
-    "summary": "I am a data scientist with a strong background in mathematics. I have experience working with large datasets and developing machine learning models. I am passionate about using data to solve real-world problems and make a positive impact on society.",
+    "phone": "+86 13906567500",
+    "summary": "Data Scientist with a strong mathematical foundation and hands-on experience in machine learning, predictive analytics, and AI-driven solutions. Skilled in building end-to-end data pipelines, deploying large language models, and translating complex data into actionable business insights.",
     "location": {
-      "address": "3025 JF Kennedy Blvd",
+      "address": "",
       "postalCode": "PA 19104",
       "city": "Philadelphia",
       "countryCode": "US",
       "region": "Pennsylvania"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yulunwu02",
+        "url": "https://www.linkedin.com/in/yulunwu02/"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Midea Group",
+      "name": "Midea Group Co., Ltd.",
       "position": "Algorithm Engineer",
-      "location": "Foshan, Guangdong, China",
+      "location": "Guangdong, China",
       "startDate": "2025-05",
       "endDate": "2025-08",
-      "summary": "placeholder",
-      "highlights": ["Relativity", "Description 2."]
+      "summary": "Developed AI-powered systems for industrial energy optimization, intelligent inspection, and fire-hazard detection.",
+      "highlights": [
+        "Developed a micro-grid scheduling agent using mixed-integer programming to optimize real-time battery charging/discharging, lowering plant electricity costs by 12.5% while processing 15,000+ data points daily.",
+        "Designed an intelligent substation-inspection report generator fusing multi-modal anomaly-detection algorithms with a knowledge graph and LLM reasoning, boosting report throughput 15x (42 s/report) and achieving 98.5% defect-identification accuracy.",
+        "Co-built an industrial-scale fire-hazard detection system; applied LoRA fine-tuning to the Qwen-VL vision-language model, reaching >92% image-hazard detection accuracy with 800 ms response time and established an automated data closed-loop training-to-deployment pipeline."
+      ]
     },
     {
       "name": "Wharton AI & Analytics Initiative",
-      "position": "Data Scientist Intern",
+      "position": "Data Scientist",
       "location": "Philadelphia, Pennsylvania, US",
-      "startDate": "2025-01",
+      "startDate": "2025-02",
       "endDate": "2025-05",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "summary": "Led the Wharton AI & Analytics Accelerator Team to develop AI-driven sales forecasting and business intelligence tools.",
+      "highlights": [
+        "Led the team to develop an AI-driven tool that predicted sales trends for Spencer's Gifts, improving forecast accuracy by 25% and boosting sales efficiency by 18%.",
+        "Designed and implemented predictive models (Prophet, XGBoost) in Python achieving 91.2% accuracy, delivering actionable insights through interactive Power BI dashboards used by 500+ stakeholders.",
+        "Managed large-scale data pipelines on AWS and Databricks, utilizing SQL and PySpark to incorporate diverse datasets including marketing campaigns and social media analytics, enhancing forecast accuracy by 15%."
+      ]
     },
     {
       "name": "Novo Nordisk (China) Pharmaceuticals Co., Ltd.",
-      "position": "Data Analyst Intern",
+      "position": "Data Analyst",
       "location": "Beijing, China",
       "startDate": "2023-06",
       "endDate": "2023-09",
-      "summary": "",
-      "highlights": []
+      "summary": "Led database migration and built predictive analytics for pharmaceutical sales optimization.",
+      "highlights": [
+        "Collaborated with Microsoft China to lead a company-wide SQL database migration project, consolidating five disparate databases into a unified system. Optimized SQL queries reducing runtime by 30%.",
+        "Leveraged Python and statistical techniques to process and analyze historical sales promotion data. Generated predictive insights using SHAP interpretability that improved promotional budget allocation accuracy by 20%, contributing to $100,000 in cost savings."
+      ]
     },
     {
       "name": "Central Institute of Mental Health",
@@ -49,74 +66,127 @@
       "location": "Mannheim, Germany",
       "startDate": "2023-01",
       "endDate": "2023-05",
-      "summary": "",
-      "highlights": []
+      "summary": "Conducted statistical analysis on neurophysiological activity data combining fMRI and heart rate signals.",
+      "highlights": [
+        "Utilized Python and MATLAB for data preprocessing, GLM modeling, and trend identification to uncover relationships between brain activity and stress responses.",
+        "Collaborated with a multidisciplinary team to deliver a comprehensive presentation at an academic seminar at Heidelberg University, engaging over 20 scholars and researchers."
+      ]
     }
   ],
-  "volunteer": [
-  ],
+  "volunteer": [],
   "education": [
     {
       "institution": "University of Pennsylvania",
       "location": "Philadelphia, Pennsylvania, US",
       "url": "https://www.upenn.edu/",
       "area": "Data Science",
-      "studyType": "Master's degree",
+      "studyType": "Master of Science",
       "startDate": "2024-08",
-      "endDate": "2026-06",
-      "score": "4.0",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "endDate": "2026-05",
+      "score": "4.0/4.0",
+      "courses": [],
+      "highlights": [
+        "GPA: 4.0/4.0 (Top 1%)",
+        "Wharton Analytics Fellow"
+      ]
     },
     {
       "institution": "University of Nottingham",
       "location": "Nottingham, UK",
+      "url": "https://www.nottingham.ac.uk/",
       "area": "Mathematics with Applied Mathematics",
-      "studyType": "Bachelor's degree",
+      "studyType": "BSc Hons",
       "startDate": "2020-09",
       "endDate": "2024-07",
-      "score": "3.9",
+      "score": "3.9/4.0",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": [
+        "First Class Honours | GPA: 3.9/4.0 (Top 5%)",
+        "Provost's Scholarship"
+      ]
     }
   ],
-  "awards": [
-  ],
+  "awards": [],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Data Engineering Fundamentals",
+      "date": "2025-01",
+      "issuer": "IBM",
+      "icon": "fa-solid fa-database"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
+      "name": "Professional Certificate in LLMOps",
+      "date": "2024-12",
+      "issuer": "edX",
+      "icon": "fa-solid fa-robot"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
+      "name": "Power BI Data Analyst Associate",
+      "date": "2023-11",
+      "issuer": "Microsoft",
+      "icon": "fa-solid fa-chart-bar"
     }
   ],
-  "publications": [
-    
-  ],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "Advanced",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python",
+        "R",
+        "SQL",
+        "MATLAB",
+        "C/C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "Data Analysis & ML",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Statistical Modeling",
+        "Feature Engineering",
+        "Regression Analysis",
+        "Time Series Analysis",
+        "A/B Testing",
+        "Experiment Design"
+      ]
+    },
+    {
+      "name": "Big Data & Cloud",
+      "level": "Advanced",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "Spark",
+        "Hadoop",
+        "AWS",
+        "Databricks",
+        "ETL Pipelines"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    },
+    {
+      "name": "AI & LLM",
+      "level": "Advanced",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Large Language Models",
+        "Prompt Engineering",
+        "LoRA Fine-Tuning",
+        "AI Agents"
       ]
     }
   ],
@@ -134,27 +204,55 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Artificial Intelligence",
+      "icon": "fa-solid fa-robot",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Large Language Models",
+        "Computer Vision",
+        "NLP",
+        "AI Agents"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "icon": "fa-solid fa-chart-bar",
+      "keywords": [
+        "Predictive Analytics",
+        "Machine Learning",
+        "Statistical Modeling",
+        "Data Engineering"
       ]
     }
   ],
-  "references": [
-  ],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "AI-Driven Sales Forecasting (Spencer's Gifts)",
+      "summary": "Led the Wharton AI & Analytics Accelerator Team to build predictive models (Prophet, XGBoost) and data pipelines on AWS/Databricks, achieving 91.2% forecast accuracy and boosting sales efficiency by 18%.",
+      "highlights": ["Python", "XGBoost", "Prophet", "AWS", "Databricks", "Power BI"],
+      "startDate": "2025-02",
+      "endDate": "2025-05"
+    },
+    {
+      "name": "Industrial AI Platform (Midea Group)",
+      "summary": "Developed micro-grid scheduling agents, intelligent inspection report generators with LLM reasoning, and LoRA-fine-tuned vision-language models for fire-hazard detection across industrial facilities.",
+      "highlights": ["Mixed-Integer Programming", "Qwen-VL", "LoRA", "Knowledge Graph", "XGBoost"],
+      "startDate": "2025-05",
+      "endDate": "2025-08"
+    },
+    {
+      "name": "Customer Churn Prediction",
+      "summary": "Built predictive models (Logistic Regression, Random Forest, XGBoost) on 7,000+ customer records with SMOTE balancing, achieving 90% accuracy and identifying strategies for 15% churn reduction.",
+      "highlights": ["Python", "XGBoost", "SMOTE", "Tableau", "SHAP"],
+      "startDate": "2024-08",
+      "endDate": "2024-12"
+    },
+    {
+      "name": "Pharmaceutical Sales Analytics (Novo Nordisk)",
+      "summary": "Led SQL database migration consolidating 5 databases, optimized queries reducing runtime by 30%, and built predictive models improving promotional budget allocation by 20%.",
+      "highlights": ["SQL", "Python", "Power BI", "SHAP", "Statistical Modeling"],
+      "startDate": "2023-06",
+      "endDate": "2023-09"
     }
   ]
 }

@@ -1,81 +1,40 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: "Industrial AI Platform — Midea Group"
+description: Built AI systems for energy optimization, intelligent inspection, and fire-hazard detection across industrial facilities.
 img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
+category: Industry
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+As an **Algorithm Engineer** at **Midea Group**, I developed three interconnected AI systems for industrial applications — spanning energy optimization, automated inspection reporting, and safety hazard detection. Each system was designed for production deployment at scale.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Project 1: Micro-Grid Scheduling Agent
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Developed a micro-grid scheduling agent using **mixed-integer programming** (Gurobi) to optimize real-time battery charging and discharging decisions.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Processed **15,000+ data points daily** with XGBoost-based load forecasting (MAPE improved by 28% over 24-hour horizons)
+- **Reduced plant electricity costs by 12.5%**, saving approximately ¥2.1M annually
+- Achieved scheduling decisions within 5-minute windows across 34 nodes
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Project 2: Intelligent Inspection Report Generator
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Designed an intelligent substation-inspection report generator that fuses **multi-modal anomaly-detection** algorithms with a **knowledge graph** and **large-language-model reasoning**.
 
-{% raw %}
+- Boosted report throughput **15x** (from 10 min to 42 seconds per report)
+- Achieved **98.5% defect-identification accuracy**
+- Integrated 5 anomaly-detection models into a unified pipeline
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Project 3: Fire-Hazard Detection System
 
-{% endraw %}
+Co-built an industrial-scale fire-hazard detection system leveraging vision-language models.
+
+- Applied **LoRA fine-tuning** to the **Qwen-VL** vision-language model
+- Reached **>92% image-hazard detection accuracy** with **800 ms** response time
+- Established an automated data closed-loop from training to deployment, reducing the iteration cycle from 4 hours to 10 minutes
+
+## Tech Stack
+
+`Python` · `XGBoost` · `Gurobi` · `Qwen-VL` · `LoRA` · `Knowledge Graphs` · `LLM` · `Mixed-Integer Programming`
