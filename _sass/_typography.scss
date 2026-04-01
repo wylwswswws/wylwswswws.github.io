@@ -1,8 +1,47 @@
 /*******************************************************************************
- * Typography styles: Headings, text, links, tables, blockquotes
+ * Typography — Inter + Space Grotesk + JetBrains Mono
+ *
+ *   Headings  → Space Grotesk  (geometric, tech-forward)
+ *   Body      → Inter          (optimised for screens, superb readability)
+ *   Code/mono → JetBrains Mono (developer aesthetic)
  ******************************************************************************/
 
 @use "variables" as v;
+
+// ── Font stacks ──────────────────────────────────────────────────────────────
+
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.25;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", "SFMono-Regular",
+    Menlo, Monaco, Consolas, monospace;
+}
+
+// ── Text colors (inherited from theme) ───────────────────────────────────────
 
 p,
 h1,
@@ -20,8 +59,13 @@ strong {
 }
 
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  border: none;
+  height: 1px;
+  background: var(--global-divider-color);
+  margin: 2rem 0;
 }
+
+// ── Tables ───────────────────────────────────────────────────────────────────
 
 table {
   td,
@@ -35,12 +79,15 @@ table {
   }
 }
 
+// ── Links ────────────────────────────────────────────────────────────────────
+
 a,
 table.table a {
   color: var(--global-theme-color);
+  transition: color 0.2s ease;
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -56,18 +103,20 @@ table.table a {
   }
 }
 
+// ── Blockquotes ──────────────────────────────────────────────────────────────
+
 blockquote {
   background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  border-left: 3px solid var(--global-theme-color);
   margin: 1.5em 0;
-  padding: 1em;
-  font-size: 1.2rem;
+  padding: 1em 1.25em;
+  font-size: 1.1rem;
+  border-radius: 0 0.5rem 0.5rem 0;
 
   p {
     margin-bottom: 0;
   }
 
-  /* Tips, warnings, and dangers blockquotes */
   &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);

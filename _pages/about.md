@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  M.S. Data Science @ <a href='https://www.upenn.edu/'>University of Pennsylvania</a> · Incoming Data Scientist @ <a href='https://www.taotian.com/'>Taotian Group (Alibaba)</a>
+  M.S. Data Science @ <a href='https://www.upenn.edu/'>UPenn</a> · Incoming Data Scientist @ <a href='https://www.taotian.com/'>Taotian Group (Alibaba)</a>
 
 profile:
   align: right
@@ -27,10 +27,59 @@ latest_posts:
   limit: 3
 ---
 
-I'm a data scientist who thrives on turning messy, large-scale data into models and systems that drive real business decisions. I'm currently completing my **M.S. in Data Science at the University of Pennsylvania** (4.0 GPA) and will be joining **[Taotian Group (Alibaba)](https://www.taotian.com/)** as a Data Scientist upon graduation.
+<div class="hero-badge">Incoming Data Scientist @ Taotian Group (Alibaba)</div>
 
-At the **Wharton AI & Analytics Initiative**, I led a team building AI-driven sales forecasting tools for Spencer's Gifts — combining Prophet, XGBoost, and large-scale data pipelines on AWS and Databricks to boost forecast accuracy by 25%. At **Midea Group**, I deployed LoRA-fine-tuned vision-language models for industrial inspection and built optimization agents using mixed-integer programming, cutting plant electricity costs by 12.5%.
+I build **machine learning systems** and **data pipelines** that drive real business outcomes — from AI-powered sales forecasting to vision-language models for industrial inspection.
 
-My toolkit spans the full data science stack: **Python, R, SQL**, Spark, and cloud platforms (AWS, Databricks), paired with certifications in **LLMOps**, **Power BI**, and **Data Engineering**. I hold a First Class Honours degree in Mathematics from the **University of Nottingham** (Provost's Scholarship, 3.9 GPA), which grounds my work in rigorous statistical and mathematical thinking.
+Currently finishing my **M.S. in Data Science at UPenn** (4.0 GPA), I've shipped production ML at **Wharton**, **Midea Group**, and **Novo Nordisk**. My work sits at the intersection of **large language models**, **predictive analytics**, and **scalable data engineering**.
 
-I'm particularly passionate about the applied frontier of **large language models and AI** — building systems where cutting-edge research meets real-world impact.
+Previously: First Class Honours in Mathematics, **University of Nottingham** (Provost's Scholar, 3.9 GPA).
+
+<div class="tech-stack-section">
+<h2>Tech Stack</h2>
+<div class="skill-tags">
+  <span class="skill-tag">Python</span>
+  <span class="skill-tag">SQL</span>
+  <span class="skill-tag">R</span>
+  <span class="skill-tag">C++</span>
+  <span class="skill-tag">MATLAB</span>
+  <span class="skill-tag tool">Spark</span>
+  <span class="skill-tag tool">AWS</span>
+  <span class="skill-tag tool">Databricks</span>
+  <span class="skill-tag tool">Hadoop</span>
+  <span class="skill-tag ml">XGBoost</span>
+  <span class="skill-tag ml">PyTorch</span>
+  <span class="skill-tag ml">LLM / LoRA</span>
+  <span class="skill-tag ml">SHAP</span>
+  <span class="skill-tag ml">Prophet</span>
+  <span class="skill-tag viz">Power BI</span>
+  <span class="skill-tag viz">Tableau</span>
+  <span class="skill-tag viz">Matplotlib</span>
+</div>
+</div>
+
+<div class="impact-section">
+<h2>Impact Highlights</h2>
+<div class="impact-grid">
+  <div class="impact-card">
+    <div class="impact-number">25%</div>
+    <div class="impact-label">Forecast Accuracy Lift</div>
+    <div class="impact-org">Wharton × Spencer's</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">12.5%</div>
+    <div class="impact-label">Energy Cost Reduction</div>
+    <div class="impact-org">Midea Group</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">15×</div>
+    <div class="impact-label">Report Throughput</div>
+    <div class="impact-org">Midea Group</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">$100K</div>
+    <div class="impact-label">Cost Savings</div>
+    <div class="impact-org">Novo Nordisk</div>
+  </div>
+</div>
+</div>

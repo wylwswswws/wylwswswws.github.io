@@ -1,35 +1,54 @@
 /*******************************************************************************
- * Themes
+ * Themes — Minimalist Tech: trust, logic, futurism
  ******************************************************************************/
 @use "variables" as v;
-@use "sass:color";
 
 :root {
   color-scheme: light;
+
+  // Core palette
   --global-bg-color: #{v.$white-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #{v.$black-color};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$purple-color};
-  --global-hover-color: #{v.$purple-color};
+  --global-text-color: #0f172a;
+  --global-text-color-light: #64748b;
+  --global-theme-color: #2563eb;
+  --global-hover-color: #1d4ed8;
   --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-dark};
-  --global-footer-text-color: #{v.$grey-color-light};
-  --global-footer-link-color: #{v.$white-color};
+  --global-footer-bg-color: #0f172a;
+  --global-footer-text-color: #94a3b8;
+  --global-footer-link-color: #e2e8f0;
   --global-distill-app-color: #{v.$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
+  --global-divider-color: rgba(15, 23, 42, 0.08);
   --global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$black-color, "red", v.$space: rgb)},
-    #{color.channel(v.$black-color, "green", v.$space: rgb)},
-    #{color.channel(v.$black-color, "blue", v.$space: rgb)},
-    0.4
-  );
+  --global-back-to-top-bg-color: rgba(15, 23, 42, 0.4);
   --global-back-to-top-text-color: #{v.$white-color};
   --global-newsletter-bg-color: #{v.$white-color};
-  --global-newsletter-text-color: #{v.$black-color};
+  --global-newsletter-text-color: #0f172a;
 
+  // Extended tokens
+  --global-surface-color: #f8fafc;
+  --global-theme-color-rgb: 37, 99, 235;
+  --global-accent-gradient: linear-gradient(135deg, #2563eb 0%, #0ea5e9 100%);
+  --global-navbar-bg: rgba(255, 255, 255, 0.82);
+  --global-card-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+  --global-card-shadow-hover: 0 12px 40px rgba(15, 23, 42, 0.1);
+
+  // Skill-tag category colors
+  --skill-lang-bg: rgba(37, 99, 235, 0.07);
+  --skill-lang-border: rgba(37, 99, 235, 0.18);
+  --skill-lang-text: #2563eb;
+  --skill-tool-bg: rgba(14, 165, 233, 0.07);
+  --skill-tool-border: rgba(14, 165, 233, 0.18);
+  --skill-tool-text: #0284c7;
+  --skill-ml-bg: rgba(124, 58, 237, 0.07);
+  --skill-ml-border: rgba(124, 58, 237, 0.18);
+  --skill-ml-text: #7c3aed;
+  --skill-viz-bg: rgba(16, 185, 129, 0.07);
+  --skill-viz-border: rgba(16, 185, 129, 0.18);
+  --skill-viz-text: #059669;
+
+  // Admonition blocks
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
   --global-tip-block-text: #215d42;
@@ -43,6 +62,7 @@
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
 
+  // Theme toggle visibility
   #light-toggle-system {
     display: inline-block;
   }
@@ -74,30 +94,48 @@
   }
 }
 
+/* ── Dark mode ────────────────────────────────────────────────────────────── */
+
 html[data-theme="dark"] {
   color-scheme: dark;
-  --global-bg-color: #{v.$grey-color-dark};
+
+  --global-bg-color: #0b1120;
   --global-code-bg-color: #{v.$code-bg-color-dark};
-  --global-text-color: #{v.$grey-color-light};
-  --global-text-color-light: #{v.$grey-color};
-  --global-theme-color: #{v.$cyan-color};
-  --global-hover-color: #{v.$cyan-color};
+  --global-text-color: #e2e8f0;
+  --global-text-color-light: #94a3b8;
+  --global-theme-color: #3b82f6;
+  --global-hover-color: #60a5fa;
   --global-hover-text-color: #{v.$white-color};
-  --global-footer-bg-color: #{v.$grey-color-light};
-  --global-footer-text-color: #{v.$grey-color-dark};
-  --global-footer-link-color: #{v.$black-color};
-  --global-distill-app-color: #{v.$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{v.$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel(v.$white-color, "red", v.$space: rgb)},
-    #{color.channel(v.$white-color, "green", v.$space: rgb)},
-    #{color.channel(v.$white-color, "blue", v.$space: rgb)},
-    0.5
-  );
+  --global-footer-bg-color: #1e293b;
+  --global-footer-text-color: #94a3b8;
+  --global-footer-link-color: #e2e8f0;
+  --global-distill-app-color: #94a3b8;
+  --global-divider-color: rgba(148, 163, 184, 0.12);
+  --global-card-bg-color: #1e293b;
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5);
   --global-back-to-top-text-color: #{v.$black-color};
-  --global-newsletter-bg-color: #{v.$grey-color-light};
-  --global-newsletter-text-color: #{v.$grey-color-dark};
+  --global-newsletter-bg-color: #1e293b;
+  --global-newsletter-text-color: #e2e8f0;
+
+  --global-surface-color: #1e293b;
+  --global-theme-color-rgb: 59, 130, 246;
+  --global-accent-gradient: linear-gradient(135deg, #3b82f6 0%, #22d3ee 100%);
+  --global-navbar-bg: rgba(11, 17, 32, 0.82);
+  --global-card-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --global-card-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.35);
+
+  --skill-lang-bg: rgba(59, 130, 246, 0.12);
+  --skill-lang-border: rgba(59, 130, 246, 0.25);
+  --skill-lang-text: #60a5fa;
+  --skill-tool-bg: rgba(56, 189, 248, 0.12);
+  --skill-tool-border: rgba(56, 189, 248, 0.25);
+  --skill-tool-text: #38bdf8;
+  --skill-ml-bg: rgba(167, 139, 250, 0.12);
+  --skill-ml-border: rgba(167, 139, 250, 0.25);
+  --skill-ml-text: #a78bfa;
+  --skill-viz-bg: rgba(52, 211, 153, 0.12);
+  --skill-viz-border: rgba(52, 211, 153, 0.25);
+  --skill-viz-text: #34d399;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #215d42;
@@ -120,6 +158,8 @@ html[data-theme="dark"] {
     display: block;
   }
 }
+
+/* ── Theme-setting toggles ────────────────────────────────────────────────── */
 
 html[data-theme-setting="dark"] {
   #light-toggle-system {
@@ -154,6 +194,8 @@ html[data-theme-setting="light"] {
   }
 }
 
+/* ── Half sun/moon icon ───────────────────────────────────────────────────── */
+
 .fa-half-sun-moon {
   position: relative;
   display: inline-block;
@@ -183,20 +225,18 @@ html[data-theme-setting="light"] {
   font: var(--fa-font);
 }
 
-/* Left half: MOON */
 .fa-half-sun-moon::before {
   content: "\f111";
   color: var(--global-text-color);
   clip-path: polygon(0 0, calc(50% - 0.5px) 0, calc(50% - 0.5px) 100%, 0 100%);
 }
 
-/* Right half: SUN */
 .fa-half-sun-moon::after {
   content: "\f185";
   color: var(--global-text-color);
   clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
-  right: -1.5px; /* slight overflow to avoid right-edge clipping */
-  transform: translateX(-1px); /* visually re-center the sun half */
+  right: -1.5px;
+  transform: translateX(-1px);
 }
 
 #light-toggle:hover .fa-half-sun-moon::before {
