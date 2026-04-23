@@ -29,32 +29,67 @@ latest_posts:
 
 <div class="hero-badge">Incoming Data Scientist @ Taotian Group (Alibaba)</div>
 
-I build **machine learning systems** and **data pipelines** that drive real business outcomes — from AI-powered sales forecasting to vision-language models for industrial inspection.
+I build **machine learning systems** and **data pipelines** that drive real business outcomes — from AI-powered demand forecasting to vision-language agents for industrial safety inspection.
 
-Currently finishing my **M.S. in Data Science at UPenn** (4.0 GPA), I've shipped production ML at **Wharton**, **Midea Group**, and **Novo Nordisk**. My work sits at the intersection of **large language models**, **predictive analytics**, and **scalable data engineering**.
+Currently finishing my **M.S. in Data Science at UPenn** (4.0 GPA), I've shipped production ML at **Wharton**, **Midea Group**, and **Novo Nordisk**. My work sits at the intersection of **large language models**, **predictive analytics**, and **scalable data engineering** — with a particular focus on **agentic systems**, **causal inference**, and **operations research**.
 
 Previously: First Class Honours in Mathematics, **University of Nottingham** (Provost's Scholar, 3.9 GPA).
 
 <div class="tech-stack-section">
 <h2>Tech Stack</h2>
-<div class="skill-tags">
-  <span class="skill-tag">Python</span>
-  <span class="skill-tag">SQL</span>
-  <span class="skill-tag">R</span>
-  <span class="skill-tag">C++</span>
-  <span class="skill-tag">MATLAB</span>
-  <span class="skill-tag tool">Spark</span>
-  <span class="skill-tag tool">AWS</span>
-  <span class="skill-tag tool">Databricks</span>
-  <span class="skill-tag tool">Hadoop</span>
-  <span class="skill-tag ml">XGBoost</span>
-  <span class="skill-tag ml">PyTorch</span>
-  <span class="skill-tag ml">LLM / LoRA</span>
-  <span class="skill-tag ml">SHAP</span>
-  <span class="skill-tag ml">Prophet</span>
-  <span class="skill-tag viz">Power BI</span>
-  <span class="skill-tag viz">Tableau</span>
-  <span class="skill-tag viz">Matplotlib</span>
+
+<div class="tech-stack-grouped">
+  <div class="tech-group">
+    <span class="tech-group-label">Languages</span>
+    <div class="tech-group-pills">
+      <span class="pill">Python</span>
+      <span class="pill">SQL</span>
+      <span class="pill">R</span>
+      <span class="pill">C++</span>
+    </div>
+  </div>
+  <div class="tech-group">
+    <span class="tech-group-label">Data Engineering & Cloud</span>
+    <div class="tech-group-pills">
+      <span class="pill">AWS</span>
+      <span class="pill">Databricks</span>
+      <span class="pill">PySpark</span>
+      <span class="pill">Spark SQL</span>
+      <span class="pill">MLOps</span>
+    </div>
+  </div>
+  <div class="tech-group">
+    <span class="tech-group-label">Machine Learning</span>
+    <div class="tech-group-pills">
+      <span class="pill">XGBoost</span>
+      <span class="pill">Prophet</span>
+      <span class="pill">SMOTE</span>
+      <span class="pill">Bayesian Optimization</span>
+    </div>
+  </div>
+  <div class="tech-group">
+    <span class="tech-group-label">LLM & AI</span>
+    <div class="tech-group-pills">
+      <span class="pill">Qwen-VL</span>
+      <span class="pill">DeepSeek</span>
+      <span class="pill">LoRA / PEFT</span>
+      <span class="pill">FAISS</span>
+      <span class="pill">Agentic RAG</span>
+      <span class="pill">Tool Calling</span>
+      <span class="pill">Prompt Engineering</span>
+    </div>
+  </div>
+  <div class="tech-group">
+    <span class="tech-group-label">Analytics, Stats & BI</span>
+    <div class="tech-group-pills">
+      <span class="pill">SHAP</span>
+      <span class="pill">Causal Inference (DiD)</span>
+      <span class="pill">A/B Testing</span>
+      <span class="pill">Gurobi / MILP</span>
+      <span class="pill">Power BI</span>
+      <span class="pill">Tableau</span>
+    </div>
+  </div>
 </div>
 </div>
 
@@ -62,24 +97,34 @@ Previously: First Class Honours in Mathematics, **University of Nottingham** (Pr
 <h2>Impact Highlights</h2>
 <div class="impact-grid">
   <div class="impact-card">
-    <div class="impact-number">25%</div>
-    <div class="impact-label">Forecast Accuracy Lift</div>
+    <div class="impact-number">91.2%</div>
+    <div class="impact-label">Forecast Accuracy</div>
     <div class="impact-org">Wharton × Spencer's</div>
   </div>
   <div class="impact-card">
-    <div class="impact-number">12.5%</div>
-    <div class="impact-label">Energy Cost Reduction</div>
+    <div class="impact-number">¥2.1M</div>
+    <div class="impact-label">Annual Energy Savings</div>
     <div class="impact-org">Midea Group</div>
   </div>
   <div class="impact-card">
-    <div class="impact-number">15×</div>
-    <div class="impact-label">Report Throughput</div>
-    <div class="impact-org">Midea Group</div>
+    <div class="impact-number">98.5%</div>
+    <div class="impact-label">Defect Recall</div>
+    <div class="impact-org">Midea · VLM Agent</div>
   </div>
   <div class="impact-card">
-    <div class="impact-number">$100K</div>
-    <div class="impact-label">Cost Savings</div>
+    <div class="impact-number">50M+</div>
+    <div class="impact-label">Logs Processed</div>
+    <div class="impact-org">Churn Modeling</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">+23%</div>
+    <div class="impact-label">Marketing ROI Lift</div>
     <div class="impact-org">Novo Nordisk</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">+15%</div>
+    <div class="impact-label">RAG QA Quality</div>
+    <div class="impact-org">Agentic RAG</div>
   </div>
 </div>
 </div>

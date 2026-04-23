@@ -38,7 +38,7 @@
     {
       "name": "Wharton AI & Analytics Initiative",
       "position": "Data Scientist",
-      "location": "Philadelphia, Pennsylvania, US",
+      "location": "Philadelphia, PA, US",
       "startDate": "2025-02",
       "endDate": "2025-05",
       "summary": "Led the Wharton AI & Analytics Accelerator Team to develop AI-driven sales forecasting and business intelligence tools.",
@@ -77,7 +77,7 @@
   "education": [
     {
       "institution": "University of Pennsylvania",
-      "location": "Philadelphia, Pennsylvania, US",
+      "location": "Philadelphia, PA, US",
       "url": "https://www.upenn.edu/",
       "area": "Data Science",
       "studyType": "Master of Science",
@@ -87,7 +87,7 @@
       "courses": [],
       "highlights": [
         "GPA: 4.0/4.0 (Top 1%)",
-        "Wharton Analytics Fellow"
+        "Outstanding Academic Award"
       ]
     },
     {
@@ -137,56 +137,92 @@
         "Python",
         "R",
         "SQL",
-        "MATLAB",
         "C/C++",
-        "Java"
+        "Java",
+        "MATLAB"
       ]
     },
     {
-      "name": "Data Analysis & ML",
-      "level": "Advanced",
-      "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Statistical Modeling",
-        "Feature Engineering",
-        "Regression Analysis",
-        "Time Series Analysis",
-        "A/B Testing",
-        "Experiment Design"
-      ]
-    },
-    {
-      "name": "Big Data & Cloud",
+      "name": "Data Engineering & Cloud",
       "level": "Advanced",
       "icon": "fa-solid fa-cloud",
       "keywords": [
-        "Spark",
-        "Hadoop",
         "AWS",
         "Databricks",
-        "ETL Pipelines"
+        "PySpark",
+        "Spark SQL",
+        "Hadoop",
+        "ETL Pipelines",
+        "Data Warehouse",
+        "MLOps"
       ]
     },
     {
-      "name": "Data Visualization",
+      "name": "Machine Learning",
       "level": "Advanced",
-      "icon": "fa-solid fa-chart-line",
+      "icon": "fa-solid fa-brain",
       "keywords": [
-        "Power BI",
-        "Tableau",
-        "Matplotlib",
-        "Seaborn"
+        "XGBoost",
+        "Prophet",
+        "PyTorch",
+        "Scikit-learn",
+        "SMOTE",
+        "Bayesian Optimization",
+        "Feature Engineering",
+        "Time Series Analysis"
       ]
     },
     {
-      "name": "AI & LLM",
+      "name": "LLM & AI Agents",
       "level": "Advanced",
       "icon": "fa-solid fa-robot",
       "keywords": [
-        "Large Language Models",
+        "Qwen-VL",
+        "DeepSeek-Chat",
+        "LoRA / PEFT",
+        "FAISS",
+        "Agentic RAG",
+        "Tool Calling / Function Calling",
+        "LLM-as-a-Judge",
         "Prompt Engineering",
-        "LoRA Fine-Tuning",
-        "AI Agents"
+        "Active Learning"
+      ]
+    },
+    {
+      "name": "Statistics & Causal Inference",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "SHAP",
+        "Causal Inference (DiD)",
+        "Granger Causality",
+        "A/B Testing",
+        "Experiment Design",
+        "Multivariate Regression",
+        "Statistical Modeling"
+      ]
+    },
+    {
+      "name": "Optimization & OR",
+      "level": "Advanced",
+      "icon": "fa-solid fa-gears",
+      "keywords": [
+        "Gurobi",
+        "Mixed-Integer Programming (MILP)",
+        "Genetic Algorithms",
+        "Operations Research"
+      ]
+    },
+    {
+      "name": "Visualization & BI",
+      "level": "Advanced",
+      "icon": "fa-solid fa-chart-bar",
+      "keywords": [
+        "Power BI",
+        "Tableau",
+        "DAX",
+        "Matplotlib",
+        "Seaborn"
       ]
     }
   ],
@@ -227,30 +263,84 @@
   "references": [],
   "projects": [
     {
-      "name": "AI-Driven Sales Forecasting (Spencer's Gifts)",
-      "summary": "Led the Wharton AI & Analytics Accelerator Team to build predictive models (Prophet, XGBoost) and data pipelines on AWS/Databricks, achieving 91.2% forecast accuracy and boosting sales efficiency by 18%.",
-      "highlights": ["Python", "XGBoost", "Prophet", "AWS", "Databricks", "Power BI"],
+      "name": "AI-Driven Demand Forecasting & Inventory Optimization",
+      "summary": "Led the Wharton AI & Analytics Accelerator Team in partnership with Spencer's Gifts (500+ stores). Architected a hybrid Prophet + XGBoost residual forecasting pipeline on AWS and Databricks with Bayesian Optimization tuning. Applied Granger Causality and Difference-in-Differences analysis to scientifically prove that social-media sentiment leads sales by 2–3 weeks. Delivered an Inventory Health Score via Power BI to 500+ store managers, achieving 91.2% forecast accuracy, reducing excess inventory by 18%, and lifting sales efficiency by 25%.",
+      "highlights": [
+        "Databricks",
+        "PySpark",
+        "AWS",
+        "SQL",
+        "XGBoost",
+        "Prophet",
+        "Causal Inference (DiD)",
+        "Granger Causality",
+        "Bayesian Optimization",
+        "Power BI"
+      ],
       "startDate": "2025-02",
       "endDate": "2025-05"
     },
     {
-      "name": "Industrial AI Platform (Midea Group)",
-      "summary": "Developed micro-grid scheduling agents, intelligent inspection report generators with LLM reasoning, and LoRA-fine-tuned vision-language models for fire-hazard detection across industrial facilities.",
-      "highlights": ["Mixed-Integer Programming", "Qwen-VL", "LoRA", "Knowledge Graph", "XGBoost"],
+      "name": "Industrial AI Platform — Midea Group",
+      "summary": "Spearheaded two production AI systems under the 'Digital Factory Brain' initiative. (1) Built a closed-loop micro-grid scheduling agent using XGBoost forecasting (MAPE −28%) and a Gurobi-based MILP solver executing on a 5-minute rolling horizon — saving ¥2.1M annually per plant, deployed across 34 global factories. (2) Fine-tuned Qwen-VL with LoRA on 55,000+ domain images for an autonomous safety-inspection agent. Architected a human-in-the-loop data flywheel delivering 98.5% defect recall, compressing inspection time by 95% (4h → <10 min) and model deployment cycle from 2 weeks to 0.5 days.",
+      "highlights": [
+        "XGBoost",
+        "Gurobi",
+        "MILP",
+        "Genetic Algorithms",
+        "Causal Inference (DiD)",
+        "Qwen-VL",
+        "LoRA / PEFT",
+        "Active Learning",
+        "MLOps"
+      ],
       "startDate": "2025-05",
       "endDate": "2025-08"
     },
     {
-      "name": "Customer Churn Prediction",
-      "summary": "Built predictive models (Logistic Regression, Random Forest, XGBoost) on 7,000+ customer records with SMOTE balancing, achieving 90% accuracy and identifying strategies for 15% churn reduction.",
-      "highlights": ["Python", "XGBoost", "SMOTE", "Tableau", "SHAP"],
-      "startDate": "2024-08",
+      "name": "Agentic RAG System for Real-Time Knowledge Retrieval",
+      "summary": "Engineered a locally deployed Agentic RAG system answering complex fact-based queries. Designed dual-routing retrieval: a FAISS + gte-small-zh semantic index for domain knowledge and a DuckDuckGo API tool for real-time web search, orchestrated via DeepSeek-Chat's native function calling. Built an automated LLM-as-a-Judge evaluation harness scoring 3,000+ QA pairs across Correctness, Completeness, and Timeliness. Boosted comprehensive QA quality by 15% versus a naive RAG baseline at ≤ 2s average latency in a fully private deployment.",
+      "highlights": [
+        "DeepSeek-Chat",
+        "Agentic Workflow",
+        "Tool Calling",
+        "FAISS",
+        "gte-small-zh",
+        "LLM-as-a-Judge",
+        "Automated Evaluation"
+      ],
+      "startDate": "2025-01",
+      "endDate": "2025-04"
+    },
+    {
+      "name": "Predictive Churn Modeling & Retention Strategy",
+      "summary": "Processed 50M+ telecom transaction logs in Spark SQL, aggregating them into a structured feature store of 50,000+ user profiles with 50+ engineered behavioral features. Addressed class imbalance with SMOTE + cost-sensitive learning and trained an XGBoost classifier optimized for Recall and AUC (0.89, 89% accuracy). Deployed SHAP to surface top churn drivers and operationalized outputs as a Tableau Customer Health Score with an A/B testing framework — projecting a 15% overall churn reduction.",
+      "highlights": [
+        "PySpark",
+        "Spark SQL",
+        "XGBoost",
+        "SMOTE",
+        "Imbalanced Classification",
+        "SHAP",
+        "A/B Testing",
+        "Tableau"
+      ],
+      "startDate": "2024-10",
       "endDate": "2024-12"
     },
     {
-      "name": "Pharmaceutical Sales Analytics (Novo Nordisk)",
-      "summary": "Led SQL database migration consolidating 5 databases, optimized queries reducing runtime by 30%, and built predictive models improving promotional budget allocation by 20%.",
-      "highlights": ["SQL", "Python", "Power BI", "SHAP", "Statistical Modeling"],
+      "name": "Data Infrastructure & Predictive Marketing Analytics — Novo Nordisk",
+      "summary": "Dual-role Data Engineering + Data Science project. Partnered with Microsoft China to consolidate 5 heterogeneous legacy databases into a unified warehouse, refactored 200+ stored procedures, and streamlined the Power BI semantic model + DAX — slashing query latency by 33% (4.2s → 2.8s) for 200+ stakeholders. In parallel, built a Multivariate Regression attribution model with SHAP interpretability that optimized a ¥2M (~$280K) promotional budget and projected a +23% marketing ROI lift.",
+      "highlights": [
+        "SQL Performance Tuning",
+        "Data Warehouse",
+        "DAX",
+        "Power BI Semantic Model",
+        "Python",
+        "Multivariate Regression",
+        "SHAP Values",
+        "Marketing Attribution"
+      ],
       "startDate": "2023-06",
       "endDate": "2023-09"
     }
