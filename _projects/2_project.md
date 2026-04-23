@@ -61,7 +61,7 @@ As an **Algorithm Engineer** at Midea Group, I spearheaded the development of tw
 
   <div class="tech-stack-grouped" style="margin-top: 1.25rem; margin-bottom: 0;">
     <div class="tech-group">
-      <span class="tech-group-label">Stack</span>
+      <span class="tech-group-label">Tech Stack</span>
       <div class="tech-group-pills">
         <span class="pill">XGBoost</span>
         <span class="pill">Gurobi</span>
@@ -99,7 +99,7 @@ As an **Algorithm Engineer** at Midea Group, I spearheaded the development of tw
 
   <div class="tech-stack-grouped" style="margin-top: 1.25rem; margin-bottom: 0;">
     <div class="tech-group">
-      <span class="tech-group-label">Stack</span>
+      <span class="tech-group-label">Tech Stack</span>
       <div class="tech-group-pills">
         <span class="pill">Qwen-VL</span>
         <span class="pill">LoRA / PEFT</span>

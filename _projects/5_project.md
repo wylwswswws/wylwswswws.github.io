@@ -34,11 +34,11 @@ Architecting a dual-routing Retrieval-Augmented Generation (RAG) agent with tool
 
 Engineered an advanced, locally deployed **Agentic RAG system** designed to answer complex, fact-based queries. By dynamically routing between a private vector database and real-time web search, the system overcomes the notorious **"knowledge cutoff"** limitation of traditional Large Language Models and significantly reduces hallucinations.
 
-<h2 class="project-section-title">Situation (Challenge)</h2>
+<h2 class="project-section-title">Challenge</h2>
 
 Traditional RAG pipelines rely heavily on static local databases, rendering them ineffective for queries requiring up-to-date or temporal information. Furthermore, standard implementations lack the *"reasoning"* capability to decide **when** to search the web versus **when** to query local knowledge — leading to inefficient retrieval and compromised response accuracy.
 
-<h2 class="project-section-title">Action (Technical Approach & Execution)</h2>
+<h2 class="project-section-title">Technical Approach & Execution</h2>
 
 **Dual-Routing Retrieval Architecture.** Designed a hybrid data-fetching pipeline. Built an offline semantic index using **FAISS** and **gte-small-zh** embeddings for deep, domain-specific knowledge retrieval. In parallel, integrated **DuckDuckGo APIs** to facilitate real-time, online information extraction for trending topics.
 
@@ -56,7 +56,7 @@ Traditional RAG pipelines rely heavily on static local databases, rendering them
 
 **Automated Evaluation Pipeline (LLM-as-a-Judge).** To rigorously quantify system performance, I constructed an automated evaluation framework. Deployed DeepSeek-Chat as an impartial *"judge"* to score **3,000+ real-world QA pairs** across three distinct dimensions: **Correctness, Completeness, and Timeliness**.
 
-<h2 class="project-section-title">Results (System Impact)</h2>
+<h2 class="project-section-title">System Impact</h2>
 
 - The agentic routing mechanism boosted comprehensive **QA quality score by 15%** compared to a naive RAG baseline.
 - Achieved highly optimized average **response latency of ≤ 2 seconds**, ensuring a seamless real-time user experience while running entirely in a **privately deployed environment** for maximum data privacy.

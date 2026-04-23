@@ -59,7 +59,7 @@ As a **Data Analyst** at Novo Nordisk (China), I wore dual hats spanning **Data 
 
   <div class="tech-stack-grouped" style="margin-top: 1.25rem; margin-bottom: 0;">
     <div class="tech-group">
-      <span class="tech-group-label">Stack</span>
+      <span class="tech-group-label">Tech Stack</span>
       <div class="tech-group-pills">
         <span class="pill">SQL Performance Tuning</span>
         <span class="pill">Data Warehouse</span>
@@ -106,7 +106,7 @@ As a **Data Analyst** at Novo Nordisk (China), I wore dual hats spanning **Data 
 
   <div class="tech-stack-grouped" style="margin-top: 1.25rem; margin-bottom: 0;">
     <div class="tech-group">
-      <span class="tech-group-label">Stack</span>
+      <span class="tech-group-label">TechStack</span>
       <div class="tech-group-pills">
         <span class="pill">Python</span>
         <span class="pill">Multivariate Regression</span>
