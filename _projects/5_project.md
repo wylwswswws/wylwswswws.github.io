@@ -44,6 +44,70 @@ Traditional RAG pipelines rely heavily on static local databases, rendering them
 
 **Agentic Reasoning via Tool Calling.** Leveraged the **DeepSeek-Chat** model's native **Function Calling** mechanisms to encapsulate two core tools: `SemanticRetriever` and `WebSearchTool`. Empowered the LLM to act as an autonomous agent that dynamically decides the optimal retrieval strategy based on user intent — creating a robust *"Retrieve → Reason → Generate"* closed-loop workflow.
 
+<p class="project-sub-title">System Architecture — Dual-Routing Decision Flow</p>
+
+<div class="branch-diagram">
+  <div class="branch-single">
+    <div class="branch-node-label">Input</div>
+    <div class="branch-node-title">User Query</div>
+  </div>
+
+  <div class="branch-arrow-down">↓</div>
+
+  <div class="branch-decision">
+    <div class="branch-node-title">Agentic LLM Router</div>
+    <div class="branch-node-sub">DeepSeek-Chat · Function Calling</div>
+  </div>
+
+  <div class="branch-fork">
+    <svg viewBox="0 0 620 36" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <line x1="310" y1="0" x2="310" y2="16" stroke="currentColor" stroke-width="2"/>
+      <line x1="90" y1="16" x2="530" y2="16" stroke="currentColor" stroke-width="2"/>
+      <line x1="90" y1="16" x2="90" y2="30" stroke="currentColor" stroke-width="2"/>
+      <line x1="530" y1="16" x2="530" y2="30" stroke="currentColor" stroke-width="2"/>
+      <polygon points="84,28 96,28 90,36" fill="currentColor"/>
+      <polygon points="524,28 536,28 530,36" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <div class="branch-split">
+    <div class="branch-node">
+      <div class="branch-node-label">Branch 1 · Domain</div>
+      <div class="branch-node-title">SemanticRetriever</div>
+      <div class="branch-node-sub">FAISS + gte-small-zh</div>
+    </div>
+    <div class="branch-node">
+      <div class="branch-node-label">Branch 2 · Recency</div>
+      <div class="branch-node-title">WebSearchTool</div>
+      <div class="branch-node-sub">DuckDuckGo API</div>
+    </div>
+  </div>
+
+  <div class="branch-merge">
+    <svg viewBox="0 0 620 36" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <line x1="90" y1="0" x2="90" y2="20" stroke="currentColor" stroke-width="2"/>
+      <line x1="530" y1="0" x2="530" y2="20" stroke="currentColor" stroke-width="2"/>
+      <line x1="90" y1="20" x2="530" y2="20" stroke="currentColor" stroke-width="2"/>
+      <line x1="310" y1="20" x2="310" y2="32" stroke="currentColor" stroke-width="2"/>
+      <polygon points="304,30 316,30 310,38" fill="currentColor"/>
+    </svg>
+  </div>
+
+  <div class="branch-single">
+    <div class="branch-node-label">Aggregation</div>
+    <div class="branch-node-title">Context Assembly</div>
+    <div class="branch-node-sub">retrieve → reason → generate</div>
+  </div>
+
+  <div class="branch-arrow-down">↓</div>
+
+  <div class="branch-final branch-single">
+    <div class="branch-node-title">Final Response</div>
+  </div>
+</div>
+
+<p class="diagram-caption">The agent chooses retrieval strategy per query — domain knowledge routes to the private vector store, time-sensitive queries route to the web.</p>
+
 <div class="callout">
   <div class="callout-icon">💡</div>
   <div class="callout-body">

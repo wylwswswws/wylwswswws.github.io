@@ -54,6 +54,43 @@ The business was losing revenue due to high churn rates, and customer acquisitio
 
 **Productization & A/B Testing Framework.** Operationalized the ML output by creating a dynamic **"Customer Health Score"** dashboard in **Tableau**. Translated these scores into automated business rules and designed a rigorous A/B testing methodology to scientifically evaluate the ROI of differentiated interventions (e.g., proactive fiber-optic upgrades vs. targeted cashback promos).
 
+<p class="project-sub-title">Closed-Loop Analytics Framework</p>
+
+<div class="loop-diagram">
+  <svg class="loop-arrows" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <marker id="ch-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z"/>
+      </marker>
+    </defs>
+    <path d="M 325 100 Q 400 140 355 215" marker-end="url(#ch-arrow)"/>
+    <path d="M 355 285 Q 400 360 325 400" marker-end="url(#ch-arrow)"/>
+    <path d="M 175 400 Q 100 360 145 285" marker-end="url(#ch-arrow)"/>
+    <path d="M 145 215 Q 100 140 175 100" marker-end="url(#ch-arrow)"/>
+  </svg>
+
+  <div class="loop-node loop-top">
+    <div class="loop-node-title">Data Engineering</div>
+    <div class="loop-node-sub">Spark · Feature Store</div>
+  </div>
+  <div class="loop-node loop-right">
+    <div class="loop-node-title">ML Prediction</div>
+    <div class="loop-node-sub">XGBoost · SMOTE</div>
+  </div>
+  <div class="loop-node loop-bottom">
+    <div class="loop-node-title">Actionable Insight</div>
+    <div class="loop-node-sub">SHAP · Tableau</div>
+  </div>
+  <div class="loop-node loop-left">
+    <div class="loop-node-title">Experimentation</div>
+    <div class="loop-node-sub">A/B Testing · ROI</div>
+  </div>
+
+  <div class="loop-center">Closed-Loop<br>Analytics</div>
+</div>
+
+<p class="diagram-caption">Every experiment feeds back into the next iteration — data becomes culture, not a one-off report.</p>
+
 <h2 class="project-section-title">Business Impact</h2>
 
 - Engineered a high-performing XGBoost model achieving an **AUC of 0.89** and a comprehensive **accuracy of 89%**, effectively capturing the most critical at-risk segments.

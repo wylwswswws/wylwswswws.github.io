@@ -52,6 +52,43 @@ As an **Algorithm Engineer** at Midea Group, I spearheaded the development of tw
     <li><strong>Causal Evaluation.</strong> Conducted rigorous <strong>Difference-in-Differences (DiD)</strong> analysis against control-group factories to isolate and scientifically prove the algorithm's direct economic contribution, stripping away seasonal or policy-driven confounders.</li>
   </ul>
 
+  <p class="project-sub-title">Closed-Loop Control Architecture</p>
+
+  <div class="loop-diagram">
+    <svg class="loop-arrows" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <marker id="mg-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z"/>
+        </marker>
+      </defs>
+      <path d="M 325 100 Q 400 140 355 215" marker-end="url(#mg-arrow)"/>
+      <path d="M 355 285 Q 400 360 325 400" marker-end="url(#mg-arrow)"/>
+      <path d="M 175 400 Q 100 360 145 285" marker-end="url(#mg-arrow)"/>
+      <path d="M 145 215 Q 100 140 175 100" marker-end="url(#mg-arrow)"/>
+    </svg>
+
+    <div class="loop-node loop-top">
+      <div class="loop-node-title">Weather & Load Data</div>
+      <div class="loop-node-sub">real-time feed</div>
+    </div>
+    <div class="loop-node loop-right">
+      <div class="loop-node-title">XGBoost Forecast</div>
+      <div class="loop-node-sub">24h · MAPE −28%</div>
+    </div>
+    <div class="loop-node loop-bottom">
+      <div class="loop-node-title">Gurobi MILP Solver</div>
+      <div class="loop-node-sub">optimization</div>
+    </div>
+    <div class="loop-node loop-left">
+      <div class="loop-node-title">Battery Action</div>
+      <div class="loop-node-sub">charge · discharge</div>
+    </div>
+
+    <div class="loop-center">5-min<br>Rolling Horizon</div>
+  </div>
+
+  <p class="diagram-caption">Rolling-horizon optimization executes every 5 minutes, absorbing stochastic weather and load shifts.</p>
+
   <h4>Results</h4>
   <ul>
     <li>Slashed predictive <strong>MAPE by 28%</strong>, creating a tighter search space for the optimization solver.</li>
@@ -89,6 +126,43 @@ As an **Algorithm Engineer** at Midea Group, I spearheaded the development of tw
     <li><strong>Active Learning & MLOps Pipeline.</strong> Architected a <em>human-in-the-loop</em> continuous learning system. High-confidence predictions automatically generated structured JSON reports, while low-confidence anomalies were routed to safety engineers. Corrected labels were automatically merged into nightly incremental training jobs — enabling the model to self-evolve.</li>
     <li><strong>Conversational Agent Workflow.</strong> Productized the complex machine learning pipeline into a conversational LLM agent. Empowered non-technical frontline workers to execute the full lifecycle — <em>Scene Definition → Data Upload → Auto-labeling → Model Fine-tuning</em> — using natural language.</li>
   </ul>
+
+  <p class="project-sub-title">Data Flywheel — Self-Evolving Model</p>
+
+  <div class="loop-diagram">
+    <svg class="loop-arrows" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <marker id="fw-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 0 L 10 5 L 0 10 z"/>
+        </marker>
+      </defs>
+      <path d="M 325 100 Q 400 140 355 215" marker-end="url(#fw-arrow)"/>
+      <path d="M 355 285 Q 400 360 325 400" marker-end="url(#fw-arrow)"/>
+      <path d="M 175 400 Q 100 360 145 285" marker-end="url(#fw-arrow)"/>
+      <path d="M 145 215 Q 100 140 175 100" marker-end="url(#fw-arrow)"/>
+    </svg>
+
+    <div class="loop-node loop-top">
+      <div class="loop-node-title">Qwen-VL Inference</div>
+      <div class="loop-node-sub">structured JSON report</div>
+    </div>
+    <div class="loop-node loop-right">
+      <div class="loop-node-title">Low-Confidence Routing</div>
+      <div class="loop-node-sub">anomaly flag</div>
+    </div>
+    <div class="loop-node loop-bottom">
+      <div class="loop-node-title">Expert Review</div>
+      <div class="loop-node-sub">human-in-the-loop labels</div>
+    </div>
+    <div class="loop-node loop-left">
+      <div class="loop-node-title">Nightly LoRA Fine-Tune</div>
+      <div class="loop-node-sub">incremental model update</div>
+    </div>
+
+    <div class="loop-center">Self-Evolving<br>Data Flywheel</div>
+  </div>
+
+  <p class="diagram-caption">Every correction by a safety engineer is compounded into the next day's model — a continuously improving feedback loop.</p>
 
   <h4>Results</h4>
   <ul>
