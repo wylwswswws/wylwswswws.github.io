@@ -421,26 +421,31 @@ ninja.data = [{
           section: "News",},{id: "news-thrilled-to-share-that-i-will-be-joining-taotian-group-alibaba-as-a-data-scientist-after-graduation-excited-to-apply-ai-and-large-scale-analytics-at-one-of-the-world-s-leading-tech-companies",
           title: 'Thrilled to share that I will be joining Taotian Group (Alibaba) as a...',
           description: "",
-          section: "News",},{id: "projects-ai-driven-sales-forecasting-for-spencer-39-s-gifts",
-          title: 'AI-Driven Sales Forecasting for Spencer&amp;#39;s Gifts',
-          description: "Led the Wharton AI &amp; Analytics Accelerator Team to build predictive models and data pipelines that improved forecast accuracy by 25%.",
+          section: "News",},{id: "projects-ai-driven-demand-forecasting-amp-inventory-optimization",
+          title: 'AI-Driven Demand Forecasting &amp;amp; Inventory Optimization',
+          description: "Wharton AI &amp; Analytics Accelerator × Spencer&#39;s Gifts",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-industrial-ai-platform-midea-group",
           title: 'Industrial AI Platform — Midea Group',
-          description: "Built AI systems for energy optimization, intelligent inspection, and fire-hazard detection across industrial facilities.",
+          description: "Digital Factory Brain · Optimization, VLM fine-tuning, and agentic MLOps",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-customer-churn-prediction-amp-analytics",
-          title: 'Customer Churn Prediction &amp;amp; Analytics',
-          description: "Built ML models on 7,000+ records to predict customer churn with 90% accuracy and proposed strategies for 15% churn reduction.",
+            },},{id: "projects-predictive-churn-modeling-amp-retention-strategy",
+          title: 'Predictive Churn Modeling &amp;amp; Retention Strategy',
+          description: "Large-scale ML pipeline from distributed data processing to SHAP-driven interventions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-pharmaceutical-sales-analytics-novo-nordisk",
-          title: 'Pharmaceutical Sales Analytics — Novo Nordisk',
-          description: "Led SQL database migration and built predictive models that improved promotional budget allocation by 20%, saving $100K.",
+            },},{id: "projects-data-infrastructure-amp-predictive-marketing-analytics-novo-nordisk",
+          title: 'Data Infrastructure &amp;amp; Predictive Marketing Analytics — Novo Nordisk',
+          description: "Enterprise data warehouse modernization × SHAP-based marketing attribution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-agentic-rag-system-for-real-time-knowledge-retrieval",
+          title: 'Agentic RAG System for Real-Time Knowledge Retrieval',
+          description: "Dual-routing RAG agent · Tool-calling · LLM-as-a-Judge evaluation pipeline",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
