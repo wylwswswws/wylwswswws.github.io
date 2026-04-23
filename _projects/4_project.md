@@ -2,7 +2,7 @@
 layout: page
 title: "Data Infrastructure & Predictive Marketing Analytics — Novo Nordisk"
 description: Enterprise data warehouse modernization × SHAP-based marketing attribution
-img: assets/img/6.jpg
+img: assets/img/project_data_infra.png
 importance: 3
 category: Industry
 ---

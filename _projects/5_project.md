@@ -2,7 +2,7 @@
 layout: page
 title: "Agentic RAG System for Real-Time Knowledge Retrieval"
 description: Dual-routing RAG agent · Tool-calling · LLM-as-a-Judge evaluation pipeline
-img: assets/img/7.jpg
+img: assets/img/project_agentic_rag.png
 importance: 1
 category: Academic
 ---

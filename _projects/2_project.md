@@ -2,7 +2,7 @@
 layout: page
 title: "Industrial AI Platform — Midea Group"
 description: "Digital Factory Brain · Optimization, VLM fine-tuning, and agentic MLOps"
-img: assets/img/3.jpg
+img: assets/img/project_industrial_ai.png
 importance: 2
 category: Industry
 ---

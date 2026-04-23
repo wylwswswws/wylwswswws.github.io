@@ -2,7 +2,7 @@
 layout: page
 title: "Predictive Churn Modeling & Retention Strategy"
 description: Large-scale ML pipeline from distributed data processing to SHAP-driven interventions
-img: assets/img/5.jpg
+img: assets/img/project_churn.png
 importance: 2
 category: Academic
 ---

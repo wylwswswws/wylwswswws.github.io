@@ -2,7 +2,7 @@
 layout: page
 title: "AI-Driven Demand Forecasting & Inventory Optimization"
 description: Wharton AI & Analytics Accelerator × Spencer's Gifts
-img: assets/img/1.jpg
+img: assets/img/project_forecasting.png
 importance: 1
 category: Industry
 ---
