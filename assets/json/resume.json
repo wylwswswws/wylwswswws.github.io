@@ -28,24 +28,25 @@
       "location": "Guangdong, China",
       "startDate": "2025-05",
       "endDate": "2025-08",
-      "summary": "Developed AI-powered systems for industrial energy optimization, intelligent inspection, and fire-hazard detection.",
+      "summary": "Industrial AI R&D within Midea's 'Digital Factory Brain' initiative, spanning predictive ML, operations research, and large vision-language models.",
       "highlights": [
-        "Developed a micro-grid scheduling agent using mixed-integer programming to optimize real-time battery charging/discharging, lowering plant electricity costs by 12.5% while processing 15,000+ data points daily.",
-        "Designed an intelligent substation-inspection report generator fusing multi-modal anomaly-detection algorithms with a knowledge graph and LLM reasoning, boosting report throughput 15x (42 s/report) and achieving 98.5% defect-identification accuracy.",
-        "Co-built an industrial-scale fire-hazard detection system; applied LoRA fine-tuning to the Qwen-VL vision-language model, reaching >92% image-hazard detection accuracy with 800 ms response time and established an automated data closed-loop training-to-deployment pipeline."
+        "Designed and shipped two production AI systems deployed at a pilot facility and scaled across 34 global manufacturing plants.",
+        "Worked across the full ML lifecycle — forecasting, mathematical optimization (MILP), VLM fine-tuning, and MLOps pipelines.",
+        "Collaborated with plant operators, safety engineers, and ESG teams to translate algorithmic outputs into operational decisions and KPIs.",
+        "Featured engagements: micro-grid energy scheduling agent and autonomous safety-inspection VLM agent (see Projects)."
       ]
     },
     {
       "name": "Wharton AI & Analytics Initiative",
-      "position": "Data Scientist",
+      "position": "Data Scientist · Wharton Analytics Fellow",
       "location": "Philadelphia, PA, US",
       "startDate": "2025-02",
-      "endDate": "2025-05",
-      "summary": "Led the Wharton AI & Analytics Accelerator Team to develop AI-driven sales forecasting and business intelligence tools.",
+      "endDate": "Present",
+      "summary": "Selected as a Wharton Analytics Fellow leading the AI & Analytics Accelerator Team on client engagements with major retailers.",
       "highlights": [
-        "Led the team to develop an AI-driven tool that predicted sales trends for Spencer's Gifts, improving forecast accuracy by 25% and boosting sales efficiency by 18%.",
-        "Designed and implemented predictive models (Prophet, XGBoost) in Python achieving 91.2% accuracy, delivering actionable insights through interactive Power BI dashboards used by 500+ stakeholders.",
-        "Managed large-scale data pipelines on AWS and Databricks, utilizing SQL and PySpark to incorporate diverse datasets including marketing campaigns and social media analytics, enhancing forecast accuracy by 15%."
+        "Lead a cross-functional team delivering production ML solutions to consumer-goods and retail partners.",
+        "Own end-to-end project execution: stakeholder requirements, data architecture, modeling, and executive presentations.",
+        "Featured engagement: AI-driven demand forecasting and inventory optimization for Spencer's Gifts (see Projects)."
       ]
     },
     {
@@ -54,22 +55,24 @@
       "location": "Beijing, China",
       "startDate": "2023-06",
       "endDate": "2023-09",
-      "summary": "Led database migration and built predictive analytics for pharmaceutical sales optimization.",
+      "summary": "Cross-functional data role at Novo Nordisk's China commercial division, bridging enterprise data engineering and ML-driven marketing analytics.",
       "highlights": [
-        "Collaborated with Microsoft China to lead a company-wide SQL database migration project, consolidating five disparate databases into a unified system. Optimized SQL queries reducing runtime by 30%.",
-        "Leveraged Python and statistical techniques to process and analyze historical sales promotion data. Generated predictive insights using SHAP interpretability that improved promotional budget allocation accuracy by 20%, contributing to $100,000 in cost savings."
+        "Partnered with Microsoft China engineers on a company-wide data warehouse modernization effort.",
+        "Served as the bridge between IT infrastructure teams and frontline marketing & sales stakeholders, supporting 200+ business users.",
+        "Featured engagements: enterprise data warehouse consolidation and SHAP-based marketing attribution modeling (see Projects)."
       ]
     },
     {
-      "name": "Central Institute of Mental Health",
+      "name": "Central Institute of Mental Health (ZI Mannheim)",
       "position": "Data Analyst Intern",
       "location": "Mannheim, Germany",
       "startDate": "2023-01",
       "endDate": "2023-05",
-      "summary": "Conducted statistical analysis on neurophysiological activity data combining fMRI and heart rate signals.",
+      "summary": "Computational neuroscience research at one of Germany's leading psychiatric institutes, affiliated with Heidelberg University.",
       "highlights": [
-        "Utilized Python and MATLAB for data preprocessing, GLM modeling, and trend identification to uncover relationships between brain activity and stress responses.",
-        "Collaborated with a multidisciplinary team to deliver a comprehensive presentation at an academic seminar at Heidelberg University, engaging over 20 scholars and researchers."
+        "Conducted statistical analysis on multi-modal neurophysiological data combining fMRI and heart-rate signals.",
+        "Applied GLM modeling and Python / MATLAB pipelines to study relationships between brain activity and stress responses.",
+        "Co-presented research findings at a Heidelberg University academic seminar to 20+ scholars and researchers."
       ]
     }
   ],
@@ -205,7 +208,7 @@
     {
       "name": "Optimization & OR",
       "level": "Advanced",
-      "icon": "fa-solid fa-gears",
+      "icon": "fa-solid fa-sliders",
       "keywords": [
         "Gurobi",
         "Mixed-Integer Programming (MILP)",

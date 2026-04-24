@@ -46,6 +46,8 @@ Previously: First Class Honours in Mathematics, **University of Nottingham** (Pr
       <span class="pill">SQL</span>
       <span class="pill">R</span>
       <span class="pill">C++</span>
+      <span class="pill">Java</span>
+      <span class="pill">MATLAB</span>
     </div>
   </div>
   <div class="tech-group">
@@ -55,36 +57,38 @@ Previously: First Class Honours in Mathematics, **University of Nottingham** (Pr
       <span class="pill">Databricks</span>
       <span class="pill">PySpark</span>
       <span class="pill">Spark SQL</span>
+      <span class="pill">MLflow</span>
       <span class="pill">MLOps</span>
     </div>
   </div>
   <div class="tech-group">
     <span class="tech-group-label">Machine Learning</span>
     <div class="tech-group-pills">
-      <span class="pill">XGBoost</span>
+      <span class="pill">PyTorch</span>
+      <span class="pill">Scikit-learn</span>
+      <span class="pill">XGBoost / LightGBM</span>
       <span class="pill">Prophet</span>
-      <span class="pill">SMOTE</span>
+      <span class="pill">Pandas</span>
       <span class="pill">Bayesian Optimization</span>
     </div>
   </div>
   <div class="tech-group">
     <span class="tech-group-label">LLM & AI</span>
     <div class="tech-group-pills">
-      <span class="pill">Qwen-VL</span>
-      <span class="pill">DeepSeek</span>
+      <span class="pill">Hugging Face</span>
       <span class="pill">LoRA / PEFT</span>
-      <span class="pill">FAISS</span>
       <span class="pill">Agentic RAG</span>
       <span class="pill">Tool Calling</span>
-      <span class="pill">Prompt Engineering</span>
+      <span class="pill">Vision-Language Models</span>
+      <span class="pill">FAISS</span>
     </div>
   </div>
   <div class="tech-group">
-    <span class="tech-group-label">Analytics, Stats & BI</span>
+    <span class="tech-group-label">Stats, Optimization & BI</span>
     <div class="tech-group-pills">
-      <span class="pill">SHAP</span>
-      <span class="pill">Causal Inference (DiD)</span>
+      <span class="pill">Causal Inference</span>
       <span class="pill">A/B Testing</span>
+      <span class="pill">SHAP</span>
       <span class="pill">Gurobi / MILP</span>
       <span class="pill">Power BI</span>
       <span class="pill">Tableau</span>
@@ -112,19 +116,9 @@ Previously: First Class Honours in Mathematics, **University of Nottingham** (Pr
     <div class="impact-org">Midea · VLM Agent</div>
   </div>
   <div class="impact-card">
-    <div class="impact-number">50M+</div>
-    <div class="impact-label">Logs Processed</div>
-    <div class="impact-org">Churn Modeling</div>
-  </div>
-  <div class="impact-card">
     <div class="impact-number">+23%</div>
     <div class="impact-label">Marketing ROI Lift</div>
     <div class="impact-org">Novo Nordisk</div>
-  </div>
-  <div class="impact-card">
-    <div class="impact-number">+15%</div>
-    <div class="impact-label">RAG QA Quality</div>
-    <div class="impact-org">Agentic RAG</div>
   </div>
 </div>
 </div>
