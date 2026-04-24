@@ -1302,17 +1302,24 @@ body {
 
 // ── Premium navbar search button ─────────────────────────────────────────────
 
+// Vertically center every navbar item so the search pill, links, and
+// theme-toggle share a common axis. (Bootstrap navbar-nav defaults to baseline.)
+.navbar.navbar-light .navbar-nav {
+  align-items: center;
+}
+
 .search-nav-item {
   display: flex;
   align-items: center;
   margin-left: 0.5rem;
+  line-height: 1;
 }
 
 .nav-search-btn {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.4rem 0.6rem 0.4rem 0.7rem;
+  padding: 0.38rem 0.55rem 0.38rem 0.65rem;
   background: var(--global-surface-color);
   border: 1px solid var(--global-divider-color);
   border-radius: 0.5rem;
@@ -1320,11 +1327,13 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 0.82rem;
   font-weight: 500;
+  line-height: 1;
   cursor: pointer;
   transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
 
   i {
     font-size: 0.78rem;
+    line-height: 1;
   }
 
   .search-label {
@@ -1332,10 +1341,12 @@ body {
   }
 
   .kbd-shortcut {
+    display: inline-flex;
+    align-items: center;
     font-family: "JetBrains Mono", monospace;
     font-size: 0.7rem;
     line-height: 1;
-    padding: 0.18rem 0.4rem;
+    padding: 0.22rem 0.4rem;
     border-radius: 0.3rem;
     background: var(--global-bg-color);
     border: 1px solid var(--global-divider-color);
@@ -1355,7 +1366,7 @@ body {
     display: none;
   }
   .nav-search-btn {
-    padding: 0.4rem 0.6rem;
+    padding: 0.4rem 0.55rem;
   }
 }
 

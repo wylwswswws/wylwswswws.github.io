@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Selected data science and AI projects from industry and academic work.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: [Industry, Academic]
 horizontal: false
 ---
