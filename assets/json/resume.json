@@ -23,6 +23,19 @@
   },
   "work": [
     {
+      "name": "Wharton AI & Analytics Initiative",
+      "position": "Data Scientist · Wharton Analytics Fellow",
+      "location": "Philadelphia, PA, US",
+      "startDate": "2025-02",
+      "endDate": "Present",
+      "summary": "Selected as a Wharton Analytics Fellow leading the AI & Analytics Accelerator Team on client engagements with major retailers.",
+      "highlights": [
+        "Lead a cross-functional team delivering production ML solutions to consumer-goods and retail partners.",
+        "Own end-to-end project execution: stakeholder requirements, data architecture, modeling, and executive presentations.",
+        "Featured engagement: AI-driven demand forecasting and inventory optimization for Spencer's Gifts (see Projects)."
+      ]
+    },
+    {
       "name": "Midea Group Co., Ltd.",
       "position": "Algorithm Engineer",
       "location": "Guangdong, China",
@@ -34,19 +47,6 @@
         "Worked across the full ML lifecycle — forecasting, mathematical optimization (MILP), VLM fine-tuning, and MLOps pipelines.",
         "Collaborated with plant operators, safety engineers, and ESG teams to translate algorithmic outputs into operational decisions and KPIs.",
         "Featured engagements: micro-grid energy scheduling agent and autonomous safety-inspection VLM agent (see Projects)."
-      ]
-    },
-    {
-      "name": "Wharton AI & Analytics Initiative",
-      "position": "Data Scientist · Wharton Analytics Fellow",
-      "location": "Philadelphia, PA, US",
-      "startDate": "2025-02",
-      "endDate": "Present",
-      "summary": "Selected as a Wharton Analytics Fellow leading the AI & Analytics Accelerator Team on client engagements with major retailers.",
-      "highlights": [
-        "Lead a cross-functional team delivering production ML solutions to consumer-goods and retail partners.",
-        "Own end-to-end project execution: stakeholder requirements, data architecture, modeling, and executive presentations.",
-        "Featured engagement: AI-driven demand forecasting and inventory optimization for Spencer's Gifts (see Projects)."
       ]
     },
     {

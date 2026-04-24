@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  M.S. Data Science @ <a href='https://www.upenn.edu/'>UPenn</a> · Incoming Data Scientist @ <a href='https://www.taotian.com/'>Taotian Group (Alibaba)</a>
+  Data Scientist · M.S. Data Science @ <a href='https://www.upenn.edu/'>UPenn</a> · BSc Hons Mathematics @ <a href='https://www.nottingham.ac.uk/'>Nottingham</a>
 
 profile:
   align: right
@@ -27,13 +27,39 @@ latest_posts:
   limit: 3
 ---
 
-<div class="hero-badge">Incoming Data Scientist @ Taotian Group (Alibaba)</div>
+<div class="hero-badge"><span class="hero-badge-dot"></span>Joining <strong>Taotian Group (Alibaba)</strong> as a Data Scientist · 2026</div>
 
 I build **machine learning systems** and **data pipelines** that drive real business outcomes — from AI-powered demand forecasting to vision-language agents for industrial safety inspection.
 
 Currently finishing my **M.S. in Data Science at UPenn** (4.0 GPA), I've shipped production ML at **Wharton**, **Midea Group**, and **Novo Nordisk**. My work sits at the intersection of **large language models**, **predictive analytics**, and **scalable data engineering** — with a particular focus on **agentic systems**, **causal inference**, and **operations research**.
 
 Previously: First Class Honours in Mathematics, **University of Nottingham** (Provost's Scholar, 3.9 GPA).
+
+<div class="impact-section">
+<h2>Impact Highlights</h2>
+<div class="impact-grid">
+  <div class="impact-card">
+    <div class="impact-number">91.2%</div>
+    <div class="impact-label">Forecast Accuracy</div>
+    <div class="impact-org">Wharton × Spencer's</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">¥2.1M</div>
+    <div class="impact-label">Annual Energy Savings</div>
+    <div class="impact-org">Midea Group</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">98.5%</div>
+    <div class="impact-label">Defect Recall</div>
+    <div class="impact-org">Midea · VLM Agent</div>
+  </div>
+  <div class="impact-card">
+    <div class="impact-number">+23%</div>
+    <div class="impact-label">Marketing ROI Lift</div>
+    <div class="impact-org">Novo Nordisk</div>
+  </div>
+</div>
+</div>
 
 <div class="tech-stack-section">
 <h2>Tech Stack</h2>
@@ -93,32 +119,6 @@ Previously: First Class Honours in Mathematics, **University of Nottingham** (Pr
       <span class="pill">Power BI</span>
       <span class="pill">Tableau</span>
     </div>
-  </div>
-</div>
-</div>
-
-<div class="impact-section">
-<h2>Impact Highlights</h2>
-<div class="impact-grid">
-  <div class="impact-card">
-    <div class="impact-number">91.2%</div>
-    <div class="impact-label">Forecast Accuracy</div>
-    <div class="impact-org">Wharton × Spencer's</div>
-  </div>
-  <div class="impact-card">
-    <div class="impact-number">¥2.1M</div>
-    <div class="impact-label">Annual Energy Savings</div>
-    <div class="impact-org">Midea Group</div>
-  </div>
-  <div class="impact-card">
-    <div class="impact-number">98.5%</div>
-    <div class="impact-label">Defect Recall</div>
-    <div class="impact-org">Midea · VLM Agent</div>
-  </div>
-  <div class="impact-card">
-    <div class="impact-number">+23%</div>
-    <div class="impact-label">Marketing ROI Lift</div>
-    <div class="impact-org">Novo Nordisk</div>
   </div>
 </div>
 </div>

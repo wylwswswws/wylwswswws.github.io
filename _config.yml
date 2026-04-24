@@ -7,15 +7,14 @@ first_name: Yulun
 middle_name:
 last_name: Wu
 contact_note: >
-  Feel free to reach me via email or LinkedIn.
+  Open to chats about applied ML, agentic systems, and turning research into production.
 description: >
   Yulun Wu — Data Scientist | M.S. Data Science @ UPenn | AI, Machine Learning, and Large-Scale Analytics.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  <span class="footer-credit">Built with <a href="https://github.com/alshedivat/al-folio">al-folio</a> · Hosted on <a href="https://pages.github.com/">GitHub Pages</a></span>
 keywords: data scientist, machine learning, AI, large language models, Python, data science, UPenn, analytics
 lang: en
-icon: 📊 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # custom monogram in /assets/img/
 
 url: https://wylwswswws.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

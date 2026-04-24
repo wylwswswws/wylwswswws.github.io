@@ -1,4 +1,5 @@
 <div class="col">
+  {% capture project_alt %}{{ project.title | strip_html | escape }}{% endcapture %}
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if project.img %}
@@ -7,12 +8,12 @@
           loading="eager"
           path=project.img
           sizes = "250px"
-          alt="project thumbnail"
+          alt=project_alt
           class="card-img-top"
         %}
       {% endif %}
       <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
+        <h3 class="card-title">{{ project.title }}</h3>
         <p class="card-text">{{ project.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
