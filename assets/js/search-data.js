@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-projects",
+  },{id: "nav-projects",
           title: "projects",
           description: "Selected data science and AI projects from industry and academic work.",
           section: "Navigation",
@@ -29,6 +22,20 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-news",
+          title: "news",
+          description: "Updates, milestones, and what I&#39;m currently shipping or learning.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
           },
         },{id: "post-数据分析思维之业务指标体系",
         
@@ -398,14 +405,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-my-m-s-in-data-science-at-the-university-of-pennsylvania-looking-forward-to-diving-deep-into-machine-learning-statistical-modeling-and-ai-research",
-          title: 'Started my M.S. in Data Science at the University of Pennsylvania. Looking forward...',
+            },},{id: "news-began-my-m-s-in-data-science-at-the-university-of-pennsylvania-diving-into-machine-learning-systems-statistical-inference-and-large-scale-data-engineering",
+          title: 'Began my M.S. in Data Science at the University of Pennsylvania — diving...',
           description: "",
-          section: "News",},{id: "news-appointed-as-a-wharton-analytics-fellow-at-the-wharton-ai-amp-amp-analytics-initiative-leading-the-accelerator-team-to-build-ai-driven-sales-forecasting-tools-for-spencer-s-gifts",
-          title: 'Appointed as a Wharton Analytics Fellow at the Wharton AI &amp;amp;amp; Analytics Initiative....',
+          section: "News",},{id: "news-selected-as-a-wharton-analytics-fellow-at-the-wharton-ai-amp-amp-analytics-initiative-leading-the-accelerator-team-on-an-ai-driven-demand-forecasting-engagement-with-spencer-s-gifts-500-stores-hybrid-prophet-xgboost-architecture-and-shap-driven-business-intelligence",
+          title: 'Selected as a Wharton Analytics Fellow at the Wharton AI &amp;amp;amp; Analytics Initiative....',
           description: "",
-          section: "News",},{id: "news-thrilled-to-share-that-i-will-be-joining-taotian-group-alibaba-as-a-data-scientist-after-graduation-excited-to-apply-ai-and-large-scale-analytics-at-one-of-the-world-s-leading-tech-companies",
-          title: 'Thrilled to share that I will be joining Taotian Group (Alibaba) as a...',
+          section: "News",},{id: "news-concluded-my-algorithm-engineer-internship-at-midea-group-shipped-two-production-ai-systems-a-gurobi-milp-micro-grid-scheduling-agent-2-1m-annual-savings-per-plant-and-a-lora-fine-tuned-vision-language-safety-inspection-agent-95-reduction-in-inspection-time-deployed-across-34-plants-biggest-takeaway-in-industrial-ai-the-data-flywheel-and-stakeholder-trust-matter-as-much-as-model-architecture",
+          title: 'Concluded my Algorithm Engineer internship at Midea Group. Shipped two production AI systems...',
+          description: "",
+          section: "News",},{id: "news-graduated-from-the-university-of-pennsylvania-with-my-m-s-in-data-science-4-0-4-0-gpa-receiving-the-outstanding-academic-award-onward-to-hangzhou-joining-taotian-group-alibaba-as-a-data-scientist",
+          title: 'Graduated from the University of Pennsylvania with my M.S. in Data Science (4.0/4.0...',
           description: "",
           section: "News",},{id: "projects-ai-driven-demand-forecasting-amp-inventory-optimization",
           title: 'AI-Driven Demand Forecasting &amp;amp; Inventory Optimization',
